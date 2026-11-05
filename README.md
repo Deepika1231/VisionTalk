@@ -1,15 +1,18 @@
-# VisionTalk 👁️
+# VisionTalk – AI Visual Assistant
 
-VisionTalk is a simple AI-powered visual assistant. It captures an image from the user's camera, accepts a spoken or typed question, analyses the image with Google Gemini, and reads the answer aloud.
+🚀 **Live Demo:** https://visiontalk-3xyt967yagzwpkzb3zxxdh.streamlit.app/
 
-## Features
-- Camera capture in the browser
-- Spoken question recording or typed questions
-- Image understanding and question answering with Gemini
-- Text-to-speech answers
+VisionTalk is an AI-powered visual assistant that:
+- Captures images using a camera.
+- Understands images using Google Gemini AI.
+- Accepts voice and text questions.
+- Responds with text and speech.
 
-## Tech stack
-Python · Streamlit · Google Gemini API · gTTS
+## Technologies Used
+- Python
+- Streamlit
+- Google Gemini API
+- gTTS
 
 ## Run locally
 1. Install Python 3.10 or newer.
