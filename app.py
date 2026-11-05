@@ -53,7 +53,7 @@ if st.button("✨ Ask VisionTalk", type="primary", use_container_width=True):
 
             with st.spinner("VisionTalk is looking and listening..."):
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model="gemini-3.8-flash",
                     contents=contents
                 )
                 answer = response.text or "Sorry, I could not create an answer. Please try again."
